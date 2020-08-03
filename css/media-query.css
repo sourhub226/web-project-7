@@ -173,8 +173,10 @@
 		flex-direction: column;
 	}
 	.contact-info p{
+		width: 100%;
 	line-height: 22px;
 	font-size: 15px;
+		text-align: center;
 	}
 	
 	.contact-right{
