@@ -68,3 +68,17 @@ $(document).ready(function () {
 		$(this).addClass("active").siblings().removeClass("active");
 	});
 });
+
+//Glightbox gallery
+var myLightbox = GLightbox({
+    selector: '.gallery-image',
+	zoomable: true,
+    touchNavigation: true,
+    touchFollowAxis: true
+});
+
+//media query
+if ($(window).width() < 840){
+	$('.offers div:nth-child(2)').toggleClass('animate__fadeInUp animate__fadeInRight');
+	$('.offers div:nth-child(3)').toggleClass('animate__fadeInRight animate__fadeInLeft');
+}
