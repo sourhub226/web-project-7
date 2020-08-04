@@ -232,10 +232,165 @@
 	.heading-section img {
 		max-width: 600px;
 	}
+	.load hr{
+		left: 44%;
+	}
 }
 
 @media all and (max-width: 680px) {
 	/*mobile*/
+	.heading-section img {
+		max-width: 350px;
+		left: 50%;
+		transform: translate(-50%,100px);
+	}
+	.main-nav{
+		width: 100%;
+	}
+	.start-menu {
+		top:10px;
+		left: 10px;
+		height: 7vh;
+		border-radius: 50%;
+		transform: scale(0.9);
+	}
+	.menu-closed{
+		position: relative;
+		top: 1px;
+	}
+	.menu-social {
+		display: none;
+		
+	}
+	.heading-text{
+		text-align: center;
+		width: 80%;
+		margin: auto;
+		left: 50%;
+		top:50%;
+		transform: translate(-50%,-90%);
+	}
+	.heading-section h1{
+		font-size: 45px;
+	}
+	.heading-section h2{
+		font-size: 14px;
+		letter-spacing: 1px;
+		margin-top: 15px;
+	}
+	
+	.heading-text h2::after{
+		width: 80%;
+		margin: 30px auto;
+		animation: slideinSmall 6s ease-out;
+
+	}
+	@keyframes slideinSmall{
+		from{width: 0;}
+		to {width: 80%;}
+	}
+	.heading-text a{
+		margin: auto;
+		margin-top: 40px;
+		width: 60%;
+	}
+	.right-heading{
+		display: none;
+	}
+	
+	.left-about {
+	display: none;
+	}
+	.about-content{
+		margin-left: 0;
+		width: 85%;
+
+	}
+	.about-content div{
+		margin: 20px;
+		margin-top: 0;
+	}
+	.about-content div h2 {
+		font-size: 35px;
+	}
+	.about-content div h3 {
+		font-size: 40px;
+	}
+	.about-content div p{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.about-content img{
+		margin-right: 0;
+		width: 70%;
+	}
+	
+	.offers-section {
+		padding-left: 0;
+	}
+	.offers-heading{
+		width: 100%;
+	}
+	.offers-heading h2{
+		font-size: 30px;
+	}
+	.offer-cards{
+		width: 85%;
+		padding: 0 10px;
+	}
+	.offer-text,.price{
+		transform: scale(0.9);
+	}
+	.offer-text{
+		width: 100%;
+	}
+	.offer-cards:nth-child(3) .offer-text{
+		width: 100%;
+	}
+	.price{
+		margin: auto;
+	}
+	
+	.gallery-section {
+		padding-left: 0;
+		height: 100%;
+		padding-bottom: 20px;
+	}
+	.portfolio-filter{
+		padding: 10px;
+		line-height: 1.5;
+	}
+	.portfolio-filter .button{
+		font-size: 18px;
+	}
+	.cars-gallery div {
+		width: 100%;
+	}
+	.contact-container{
+		margin-left: 0;
+		width: 85%;
+	}
+	.contact-left > p {
+		margin-top: 10px;
+	}
+	.contact-left div{
+		flex-direction: column;	
+	}
+	.contact-left div .contact-info{
+		justify-content: flex-start;
+		width: 100%;
+		flex-direction: row;	
+	}
+	.contact-info p{
+		text-align: left;
+		padding-left: 30px;
+		font-size: 14px;
+	}
+
+	footer{
+		padding-left: 0;
+	}
+	
 }
 
 
