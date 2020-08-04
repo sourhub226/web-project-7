@@ -15,46 +15,47 @@ Colors:
         Basic setup
 ------------------------------*/
 :root {
-    --orange: #f79041;
-    --dark-gray: #222222;
-    --white: #ddd;
+	--orange: #f79041;
+	--dark-gray: #222222;
+	--white: #ddd;
 }
 
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	color: var(--dark-gray);
-    font-family: 'Lato', sans-serif;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 
 li {
-    list-style: none;
-    display: inline-block;
+	list-style: none;
+	display: inline-block;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #fff;
+	max-width: 1400px;
+	margin: 0 auto;
+	background-color: #fff;
 }
 
-.animate__animated.animate__fadeOutLeft{
+.animate__animated.animate__fadeOutLeft {
 	--animate-duration: 0.1s;
 }
+
 .animate__animated.animate__slideInLeft,
-.animate__animated.animate__slideOutLeft{
+.animate__animated.animate__slideOutLeft {
 	--animate-duration: 0.5s;
 }
 
@@ -76,18 +77,19 @@ a {
 	box-shadow: 1px 1px 15px -1px black;
 }
 
-.menu-closed{
+.menu-closed {
 	position: absolute;
-	top:30px;
+	top: 30px;
 }
 
-.menu-closed i{
+.menu-closed i {
 	color: var(--white);
 	font-size: 22px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
-.menu-closed i:hover{
+
+.menu-closed i:hover {
 	color: var(--orange);
 }
 
@@ -98,7 +100,7 @@ a {
 	align-items: center;
 }
 
-.menu-social a{
+.menu-social a {
 	display: flex;
 	color: var(--white);
 	margin-right: 50px;
@@ -108,11 +110,11 @@ a {
 	transition: all 0.3s ease;
 }
 
-.menu-social a:hover{
+.menu-social a:hover {
 	color: var(--orange);
 }
 
-.menu-social a i{
+.menu-social a i {
 	margin-right: 10px;
 }
 
@@ -121,8 +123,8 @@ a {
 	position: fixed;
 	height: 100vh;
 	width: 400px;
-/*	left: -400px;*/
-/*	display: none;*/
+	/*	left: -400px;*/
+	/*	display: none;*/
 	background-color: var(--dark-gray);
 	z-index: 1000;
 	overflow: hidden;
@@ -146,18 +148,18 @@ a {
 	transition: all 0.3s ease;
 }
 
-.icon-close:hover{
+.icon-close:hover {
 	color: red;
 }
 
-.main-nav h2{
+.main-nav h2 {
 	position: absolute;
 	top: 25px;
 	left: 30px;
 	color: var(--white);
 	font-size: 30px;
 	font-weight: 400;
-	
+
 }
 
 .nav-menu {
@@ -167,14 +169,14 @@ a {
 	align-items: center;
 }
 
-.nav-menu a{
+.nav-menu a {
 	color: var(--white);
 	margin: 20px;
 	font-size: 25px;
 	transition: all 0.3s ease;
 }
 
-.nav-menu a:hover{
+.nav-menu a:hover {
 	color: var(--orange);
 }
 
@@ -190,11 +192,11 @@ a {
 }
 
 
-.heading-section img{
+.heading-section img {
 	position: absolute;
-	top:50%;
-	left:60%;
-	transform: translate(-60%,-50%);
+	top: 50%;
+	left: 60%;
+	transform: translate(-60%, -50%);
 	z-index: 100;
 	max-width: 1000px;
 }
@@ -206,7 +208,7 @@ a {
 .right-heading {
 	flex: 2;
 	background-color: var(--orange);
-	clip-path:polygon(50% 0,100% 0,100% 100%,0 100%);
+	clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .heading-text {
@@ -217,24 +219,24 @@ a {
 	margin-left: 110px;
 	position: absolute;
 	z-index: 99;
-/*	height: 100%;*/
+	/*	height: 100%;*/
 }
 
-.heading-text h1{
+.heading-text h1 {
 	text-transform: uppercase;
 	font-size: 60px;
 }
 
-.heading-text h1 span{
+.heading-text h1 span {
 	color: var(--orange);
 }
 
-.heading-text h2{
+.heading-text h2 {
 	text-transform: uppercase;
 	font-size: 17px;
 }
 
-.heading-text h2::after{
+.heading-text h2::after {
 	content: "";
 	display: block;
 	width: 100%;
@@ -244,29 +246,30 @@ a {
 	animation: slidein 3s ease-in-out;
 }
 
-@keyframes slidein{
-	from{
+@keyframes slidein {
+	from {
 		width: 0;
 	}
-	to{
+
+	to {
 		width: 100%;
 	}
 }
 
-.heading-text h3{
+.heading-text h3 {
 	text-transform: uppercase;
 	color: var(--orange);
 	font-size: 25px;
 }
 
-.heading-text h4{
+.heading-text h4 {
 	margin-top: 5px;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 400;
 }
 
-.heading-text a{
+.heading-text a {
 	margin-top: 40px;
 	text-transform: uppercase;
 	color: var(--white);
@@ -279,10 +282,10 @@ a {
 	transition: all 0.3s ease;
 }
 
-.heading-text a:hover{
+.heading-text a:hover {
 	background-color: var(--orange);
 	color: var(--dark-gray);
-	border-color:  var(--dark-gray);
+	border-color: var(--dark-gray);
 }
 
 
@@ -293,13 +296,13 @@ a {
 ------------------------------*/
 .about-section {
 	height: 100vh;
-	width:100%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--orange);
-/*	position: relative;*/
-	
+	/*	position: relative;*/
+
 }
 
 .about-content {
@@ -307,47 +310,48 @@ a {
 	background-color: var(--white);
 	width: 75%;
 	height: 75%;
-	box-shadow: 0px 0px 68px 0px rgba(0,0,0,0.33);
+	box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-left: 30px;
-	
-	
+
+
 }
 
-.about-content div{
+.about-content div {
 	margin: 70px;
 }
 
-.about-content img{
+.about-content img {
 	width: 45%;
 	margin-right: 30px;
 }
 
 
 
-.about-content div h2{
+.about-content div h2 {
 	font-size: 40px;
 	letter-spacing: 1px;
 }
 
 
 
-.about-content div h3{
+.about-content div h3 {
 	font-size: 45px;
 	font-weight: 900;
 	letter-spacing: 1px;
-/*	text-transform: uppercase;*/
+	/*	text-transform: uppercase;*/
 }
-.about-content div h3 span{
+
+.about-content div h3 span {
 	color: var(--orange);
 }
 
-.about-content div p{
+.about-content div p {
 	font-size: 18px;
 	line-height: 27px;
-/*	font-weight: 400;*/
+	/*	font-weight: 400;*/
 	letter-spacing: 0.3px;
 	opacity: 0.9;
 	margin-top: 50px;
@@ -360,18 +364,20 @@ a {
 .left-about {
 	background-color: var(--dark-gray);
 	height: 100%;
-/*	width: 100%;*/
+	/*	width: 100%;*/
 	flex: 1;
-	clip-path:polygon(0 0,100% 0%,0% 100%,0 100%);
-	
-	
+	clip-path: polygon(0 0, 100% 0%, 0% 100%, 0 100%);
+
+
 }
+
 .right-about {
 	flex: 2;
 	height: 100%;
 	background-color: var(--orange);
-	
+
 }
+
 /*------------------------------
          Offers section
 ------------------------------*/
@@ -393,13 +399,13 @@ a {
 	width: 100%;
 }
 
-.offers-heading h2{
+.offers-heading h2 {
 	font-size: 50px;
 	margin-top: 40px;
 	text-align: center;
 }
 
-.offers-heading h2 span{
+.offers-heading h2 span {
 	color: var(--orange);
 	text-transform: uppercase;
 	font-weight: 900;
@@ -409,24 +415,25 @@ a {
 .offer-cards {
 	width: 20%;
 	height: 60%;
-	color:var(--white); 
+	color: var(--white);
 	background-color: var(--dark-gray);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0px 0px 68px 0px rgba(0,0,0,0.33);
+	box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
 	cursor: pointer;
 	transition: all 0.3s ease;
-	
+
 }
-.offer-cards:nth-child(2){
+
+.offer-cards:nth-child(2) {
 	background-color: var(--orange);
 	color: var(--dark-gray);
 }
 
 
-.offer-text h3{
+.offer-text h3 {
 	text-transform: uppercase;
 	font-size: 35px;
 	font-weight: 400;
@@ -438,20 +445,20 @@ a {
 	width: 75%;
 }
 
-.offer-text p{
+.offer-text p {
 	padding: 10px;
 	font-size: 20px;
 	line-height: 1.5;
 	font-weight: 00;
 }
 
-.offer-text p::before{
+.offer-text p::before {
 	content: "•";
 	color: var(--orange);
 	padding-right: 10px;
 }
 
-.offer-cards:nth-child(2) .offer-text p::before{
+.offer-cards:nth-child(2) .offer-text p::before {
 	color: white;
 }
 
@@ -463,11 +470,11 @@ a {
 
 .price span {
 	font-size: 30px;
-	vertical-align: super;	
+	vertical-align: super;
 	color: var(--orange);
 }
 
-.offer-cards:nth-child(2) .price span{
+.offer-cards:nth-child(2) .price span {
 	color: white;
 }
 
@@ -475,6 +482,7 @@ a {
 	transform: scale(1.1);
 	box-shadow: 0px 0px 68px 0px rgb(247, 144, 65);
 }
+
 /*------------------------------
          Gallery section
 ------------------------------*/
@@ -496,9 +504,11 @@ a {
 	padding: 20px;
 	font-size: 20px;
 }
+
 .portfolio-filter .button.active {
 	color: var(--orange);
 }
+
 .cars-gallery {
 	width: 100%;
 	max-width: 1200px;
@@ -509,7 +519,7 @@ a {
 
 }
 
-.cars-gallery div{
+.cars-gallery div {
 	width: 33%;
 	display: block;
 	text-align: center;
@@ -518,10 +528,11 @@ a {
 
 .cars-gallery div:nth-child(7),
 .cars-gallery div:nth-child(8),
-.cars-gallery div:nth-child(9){
+.cars-gallery div:nth-child(9) {
 	margin-bottom: 0;
 }
-.cars-gallery div img{
+
+.cars-gallery div img {
 	width: 80%;
 }
 
@@ -546,21 +557,23 @@ a {
 	height: 80%;
 	margin-left: 60px;
 	background-color: var(--dark-gray);
-	box-shadow: 0px 0px 68px 0px rgba(0,0,0,0.33);
+	box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
 }
 
-.contact-left{
+.contact-left {
 	flex: 1;
 	color: var(--white);
 	background-color: var(--dark-gray);
 	padding: 60px;
 }
-.contact-left h2{
+
+.contact-left h2 {
 	font-size: 32px;
 	color: var(--orange);
 	font-weight: 400;
 }
-.contact-left>p{
+
+.contact-left > p {
 	margin-top: 15px;
 	margin-bottom: 80px;
 }
@@ -571,12 +584,13 @@ a {
 	margin: 30px;
 }
 
-.contact-info i{
+.contact-info i {
 	padding: 15px;
 	font-size: 27px;
 	color: var(--orange);
 }
-.contact-info p{
+
+.contact-info p {
 	line-height: 24px;
 	letter-spacing: 0.5px;
 }
@@ -584,10 +598,11 @@ a {
 .contact-right {
 	flex: 1;
 	background-color: var(--orange);
-	clip-path:polygon(101% 0,101% 100%, 0 100%,0 38%,4% 35%,0 32%,0 0);
+	clip-path: polygon(101% 0, 101% 100%, 0 100%, 0 38%, 4% 35%, 0 32%, 0 0);
 
 }
-.contact-right form{
+
+.contact-right form {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -596,13 +611,15 @@ a {
 	width: 100%;
 }
 
-form ::placeholder{
+form ::placeholder {
 	color: var(--dark-gray);
 	font-size: 17px;
 	text-transform: uppercase;
 }
 
-form input,textarea,button{
+form input,
+textarea,
+button {
 	width: 80%;
 	height: 45px;
 	resize: none;
@@ -614,20 +631,22 @@ form input,textarea,button{
 	color: white;
 	font-size: 17px;
 	transition: all 0.3s ease;
-	
+
 }
-form textarea{
+
+form textarea {
 	height: 200px;
 }
 
 
-form input:focus,textarea:focus{
+form input:focus,
+textarea:focus {
 	outline: none;
 	background-color: var(--dark-gray);
 }
 
 
-form button{
+form button {
 	width: 200px;
 	height: 45px;
 	padding: 0;
@@ -635,14 +654,14 @@ form button{
 	color: var(--dark-gray);
 	cursor: pointer;
 	font-weight: 700;
-	
+
 }
 
-form button i{
+form button i {
 	padding-left: 10px;
 }
 
-form button:hover{
+form button:hover {
 	background-color: var(--dark-gray);
 	color: var(--white);
 }
@@ -651,18 +670,19 @@ form button:hover{
 /*------------------------------
           Footer
 ------------------------------*/
-footer{
+footer {
 	background-color: var(--dark-gray);
 	padding-left: 60px;
 }
 
-footer p{
+footer p {
 	color: var(--white);
 	text-align: center;
 	padding: 15px 0;
 	font-size: 17px;
 	letter-spacing: 1px;
 }
+
 /*------------------------------
           Preloader
 ------------------------------*/
@@ -679,7 +699,7 @@ footer p{
 	align-items: center;
 }
 
-.load hr{
+.load hr {
 	width: 30px;
 	height: 30px;
 	border: none;
@@ -690,50 +710,43 @@ footer p{
 	left: 47%;
 }
 
-.load hr:nth-child(1){
+.load hr:nth-child(1) {
 	background-color: var(--dark-gray);
 	animation-delay: -1.5s;
 }
 
-.load hr:nth-child(2){
+.load hr:nth-child(2) {
 	background-color: var(--orange);
 	animation-delay: -1s;
 }
 
-.load hr:nth-child(3){
+.load hr:nth-child(3) {
 	background-color: var(--dark-gray);
 	animation-delay: -0.5s;
 }
 
-.load hr:nth-child(4){
+.load hr:nth-child(4) {
 	background-color: var(--orange);
 }
 
 
 
-@keyframes spin{
-	0%,100%{
+@keyframes spin {
+
+	0%,
+	100% {
 		transform: translate(0);
 	}
-	25%{
+
+	25% {
 		transform: translate(160%);
 	}
-	50%{
-		transform: translate(160%,160%);
+
+	50% {
+		transform: translate(160%, 160%);
 	}
-	75%{
-		transform: translate(0,160%);
+
+	75% {
+		transform: translate(0, 160%);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

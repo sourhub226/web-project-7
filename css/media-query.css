@@ -5,225 +5,238 @@
 
 
 @media all and (max-width: 1500px) {
-	.heading-section img{
+	.heading-section img {
 		max-width: 900px;
 	}
 }
-@media all and (max-width: 1380px){
-	.offer-cards{
+
+@media all and (max-width: 1380px) {
+	.offer-cards {
 		width: 23%;
 	}
 }
 
 @media all and (max-width: 1300px) {
-	.heading-text{
+	.heading-text {
 		transform: scale(0.9);
 		top: -30px;
 		left: -30px;
 	}
-	
-	.offer-cards h3{
+
+	.offer-cards h3 {
 		font-size: 30px;
 	}
-	.offer-text p{
+
+	.offer-text p {
 		line-height: 1;
 	}
-	.cars-gallery{
+
+	.cars-gallery {
 		width: 90%;
-		
+
 	}
-	
+
 }
 
-@media all and (max-width: 1275px){
-	.contact-container{
+@media all and (max-width: 1275px) {
+	.contact-container {
 		width: 80%;
 	}
 }
 
 
 @media all and (max-width: 1170px) {
-	.heading-text{
-		top:-45px;
+	.heading-text {
+		top: -45px;
 	}
-.heading-section img{
+
+	.heading-section img {
 		max-width: 800px;
 	}
-	.about-content div{
+
+	.about-content div {
 		transform: scale(0.9);
 		margin: 35px;
 	}
-	.cars-gallery div img{
-	width: 100%;
+
+	.cars-gallery div img {
+		width: 100%;
 	}
-	
+
 }
 
-@media all and (max-width: 1000px){
-	.heading-text{
+@media all and (max-width: 1000px) {
+	.heading-text {
 		transform: scale(0.8);
-		top:-65px;
-		left:-55px
+		top: -65px;
+		left: -55px
 	}
-	.heading-section img{
+
+	.heading-section img {
 		max-width: 700px;
 	}
-	.about-content{
+
+	.about-content {
 		flex-direction: column;
 	}
-	.about-content div{
+
+	.about-content div {
 		margin-top: 0;
 	}
-	.offer-cards{
+
+	.offer-cards {
 		width: 30%;
 	}
-	.cars-gallery div{
+
+	.cars-gallery div {
 		height: auto;
-		
+
 	}
-	
+
 }
 
 
 @media all and (max-width: 840px) {
 	.left-heading {
-	flex: 2;
+		flex: 2;
 	}
-	
+
 	.left-about {
-	flex: 2;
-	clip-path:polygon(0 0,100% 0%,50% 100%,0 100%);
-	}	
-	
-	.heading-section img{
-		
-		transform: translate(-57%,-20%);
+		flex: 2;
+		clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
 	}
-	
-	.offers{
+
+	.heading-section img {
+
+		transform: translate(-57%, -20%);
+	}
+
+	.offers {
 		flex-direction: column;
 		height: auto;
 	}
 
-	.offers-heading h2{
+	.offers-heading h2 {
 		font-size: 38px;
-		margin:10px 0;
-		
+		margin: 10px 0;
+
 	}
-	
-	.offer-cards{
+
+	.offer-cards {
 		width: 80%;
 		height: 150px;
 		flex-direction: row;
 		justify-content: space-around;
 		height: 180px;
 		margin: 15px 0;
-		
+
 	}
-	.offer-cards:nth-child(3){
+
+	.offer-cards:nth-child(3) {
 		margin-bottom: 60px;
 	}
-	
+
 	.offer-text {
-	width: 60%;
+		width: 60%;
 	}
+
 	.offer-cards:nth-child(3) .offer-text {
 		width: 50%;
 	}
-	.offer-text p{
+
+	.offer-text p {
 		padding: 0;
 		line-height: 1.5;
 	}
-	
-	.offer-text h3{
+
+	.offer-text h3 {
 		text-align: left;
 	}
 
-	.portfolio-filter{
+	.portfolio-filter {
 		padding: 20px 0;
 	}
-	.cars-gallery div{
+
+	.cars-gallery div {
 		height: auto;
 		width: 50%;
 		margin: auto;
 	}
-	
-	.contact-container{
+
+	.contact-container {
 		flex-direction: column;
 		height: auto;
 	}
-	.contact-left{
+
+	.contact-left {
 		padding: 30px;
 	}
-	.contact-left h2{
+
+	.contact-left h2 {
 		font-size: 28px;
 	}
-	.contact-left>p{
+
+	.contact-left > p {
 		font-size: 15px;
-	margin-top: 5px;
-	margin-bottom: 20px;
+		margin-top: 5px;
+		margin-bottom: 20px;
 	}
-	.contact-left div{
-	 display: flex;
+
+	.contact-left div {
+		display: flex;
 		width: 100%;
 
 	}
-	.contact-info{
+
+	.contact-info {
 		margin: 0;
 		flex-direction: column;
 	}
-	.contact-info p{
+
+	.contact-info p {
 		width: 100%;
-	line-height: 22px;
-	font-size: 15px;
+		line-height: 22px;
+		font-size: 15px;
 		text-align: center;
 	}
-	
-	.contact-right{
-		clip-path:polygon(48% 0,50% 2%, 52% 0%,100% 0%,100% 100%,0 100%,0 0);
+
+	.contact-right {
+		clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
 	}
-	.contact-right form{
+
+	.contact-right form {
 		margin: 20px 0;
 	}
-	form ::placeholder{
+
+	form ::placeholder {
 		font-size: 15px;
 	}
-	form input,textarea,button{
+
+	form input,
+	textarea,
+	button {
 		padding: 10px;
 		margin: 10px 0;
 	}
-	form textarea{
-	height: 150px;
+
+	form textarea {
+		height: 150px;
 	}
-	form button{
+
+	form button {
 		width: 150px;
 	}
 }
 
 @media all and (max-width: 780px) {
-	.heading-section img{
-	max-width: 600px;
+	.heading-section img {
+		max-width: 600px;
 	}
 }
 
 @media all and (max-width: 680px) {
-/*mobile*/
+	/*mobile*/
 }
 
 
-@media all and (max-width: 480px) {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media all and (max-width: 480px) {}

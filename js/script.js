@@ -1,7 +1,15 @@
 //Preloader
 $(window).on("load", function () {
 	console.log("window load");
-	$('.load').fadeOut("slow");
+
+	$('.heading-text h1').addClass('animate__fadeInLeft ');
+	$('.heading-text h2').addClass('animate__fadeInLeft animate__delay-1s');
+	$('.heading-text h3').addClass('animate__fadeInLeft animate__delay-2s');
+	$('.heading-text h4').addClass('animate__fadeInLeft animate__delay-2s');
+	$('.heading-text a').addClass('animate__zoomIn animate__delay-3s');
+	$('.heading-section img').addClass('animate__fadeIn animate__delay-2s');
+
+	$('.load').fadeOut("fast");
 });
 
 //Activate WOW
@@ -71,14 +79,14 @@ $(document).ready(function () {
 
 //Glightbox gallery
 var myLightbox = GLightbox({
-    selector: '.gallery-image',
+	selector: '.gallery-image',
 	zoomable: true,
-    touchNavigation: true,
-    touchFollowAxis: true
+	touchNavigation: true,
+	touchFollowAxis: true
 });
 
 //media query
-if ($(window).width() < 840){
+if ($(window).width() < 840) {
 	$('.offers div:nth-child(2)').toggleClass('animate__fadeInUp animate__fadeInRight');
 	$('.offers div:nth-child(3)').toggleClass('animate__fadeInRight animate__fadeInLeft');
 }
