@@ -99,3 +99,10 @@ $(window).scroll(function(){
 		scrollPercent=(scroll/(dh-wh))*100;
 	$('.scroll-bar hr').css('width',scrollPercent+'%');
 });
+
+if ($(window).width() < 680){
+	$('.menu-social a').contents().filter(function() {
+  return this.nodeType === Node.TEXT_NODE;
+}).remove();
+}
+
