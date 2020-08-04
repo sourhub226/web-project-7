@@ -731,7 +731,6 @@ footer p {
 }
 
 
-
 @keyframes spin {
 
 	0%,
@@ -750,4 +749,28 @@ footer p {
 	75% {
 		transform: translate(0, 160%);
 	}
+}
+
+/*------------------------------
+      Scroll Progress Bar
+------------------------------*/
+
+
+
+.scroll-bar{
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100vw;
+	height: 3px;
+	background-color: var(--dark-gray);
+}
+
+.scroll-bar hr{
+	height: 3px;
+	width: 0%;
+	border: none;
+	border-radius: 100px;
+	background-color: var(--orange);
+	box-shadow: 0px 0px 10px 0px var(--orange);
 }
