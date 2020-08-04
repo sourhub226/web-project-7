@@ -18,6 +18,7 @@ Colors:
 	--orange: #f79041;
 	--dark-gray: #222222;
 	--white: #ddd;
+	
 }
 
 
@@ -42,12 +43,6 @@ li {
 
 a {
 	text-decoration: none;
-}
-
-.container {
-	max-width: 1400px;
-	margin: 0 auto;
-	background-color: #fff;
 }
 
 .animate__animated.animate__fadeOutLeft {
@@ -302,8 +297,6 @@ a {
 	justify-content: center;
 	align-items: center;
 	background-color: var(--orange);
-	/*	position: relative;*/
-
 }
 
 .about-content {
