@@ -92,17 +92,16 @@ if ($(window).width() < 840) {
 }
 
 //scroll progress bar
-$(window).scroll(function(){
-	var scroll=$(window).scrollTop(),
-		dh=$(document).height(),
-		wh=$(window).height(),
-		scrollPercent=(scroll/(dh-wh))*100;
-	$('.scroll-bar hr').css('width',scrollPercent+'%');
+$(window).scroll(function () {
+	var scroll = $(window).scrollTop(),
+		dh = $(document).height(),
+		wh = $(window).height(),
+		scrollPercent = (scroll / (dh - wh)) * 100;
+	$('.scroll-bar hr').css('width', scrollPercent + '%');
 });
 
-if ($(window).width() < 680){
-	$('.menu-social a').contents().filter(function() {
-  return this.nodeType === Node.TEXT_NODE;
-}).remove();
+if ($(window).width() < 680) {
+	$('.menu-social a').contents().filter(function () {
+		return this.nodeType === Node.TEXT_NODE;
+	}).remove();
 }
-

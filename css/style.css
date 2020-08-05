@@ -18,15 +18,15 @@ Colors:
 	--orange: #f79041;
 	--dark-gray: #222222;
 	--white: #ddd;
-	
-}
 
+}
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+
 
 body {
 	color: var(--dark-gray);
@@ -118,8 +118,6 @@ a {
 	position: fixed;
 	height: 100vh;
 	width: 400px;
-	/*	left: -400px;*/
-	/*	display: none;*/
 	background-color: var(--dark-gray);
 	z-index: 1000;
 	overflow: hidden;
@@ -215,7 +213,6 @@ a {
 	margin-left: 110px;
 	position: absolute;
 	z-index: 99;
-	/*	height: 100%;*/
 }
 
 .heading-text h1 {
@@ -335,7 +332,6 @@ a {
 	font-size: 45px;
 	font-weight: 900;
 	letter-spacing: 1px;
-	/*	text-transform: uppercase;*/
 }
 
 .about-content div h3 span {
@@ -345,7 +341,6 @@ a {
 .about-content div p {
 	font-size: 18px;
 	line-height: 27px;
-	/*	font-weight: 400;*/
 	letter-spacing: 0.3px;
 	opacity: 0.9;
 	margin-top: 50px;
@@ -358,7 +353,6 @@ a {
 .left-about {
 	background-color: var(--dark-gray);
 	height: 100%;
-	/*	width: 100%;*/
 	flex: 1;
 	clip-path: polygon(0 0, 100% 0%, 0% 100%, 0 100%);
 
@@ -684,9 +678,9 @@ footer p {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 9999;
+	z-index: 999999;
 	background-color: white;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -748,9 +742,7 @@ footer p {
       Scroll Progress Bar
 ------------------------------*/
 
-
-
-.scroll-bar{
+.scroll-bar {
 	position: fixed;
 	top: 0;
 	z-index: 9999;
@@ -759,7 +751,7 @@ footer p {
 	background-color: var(--dark-gray);
 }
 
-.scroll-bar hr{
+.scroll-bar hr {
 	height: 3px;
 	width: 0%;
 	border: none;
