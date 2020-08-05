@@ -858,9 +858,11 @@ footer p {
 	position: absolute;
 	-webkit-animation: spin 2s ease infinite;
 	animation: spin 2s ease infinite;
-	top: 45%;
-	left: 47%;
+	top: 47vh;
+	left: calc(50% - 40px);
 }
+
+
 
 .load hr:nth-child(1) {
 	background-color: var(--dark-gray);

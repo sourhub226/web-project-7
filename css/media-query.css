@@ -270,9 +270,11 @@
 		max-width: 600px;
 	}
 
+/*
 	.load hr {
 		left: 44%;
 	}
+*/
 }
 
 @media all and (max-width: 680px) {
@@ -525,9 +527,11 @@
 		height: 100%;
 	}
 
+/*
 	.load hr {
 		left: 41%;
 	}
+*/
 }
 
 @media all and (max-width: 375px) {
