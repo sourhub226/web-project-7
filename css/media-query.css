@@ -18,6 +18,7 @@
 
 @media all and (max-width: 1300px) {
 	.heading-text {
+		-webkit-transform: scale(0.9);
 		transform: scale(0.9);
 		top: -30px;
 		left: -30px;
@@ -67,6 +68,7 @@
 
 @media all and (max-width: 1000px) {
 	.heading-text {
+		-webkit-transform: scale(0.8);
 		transform: scale(0.8);
 		top: -65px;
 		left: -55px
@@ -77,6 +79,9 @@
 	}
 
 	.about-content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 
@@ -99,20 +104,30 @@
 
 @media all and (max-width: 840px) {
 	.left-heading {
+		-webkit-box-flex: 2;
+		-ms-flex: 2;
 		flex: 2;
 	}
 
 	.left-about {
+		-webkit-box-flex: 2;
+		-ms-flex: 2;
 		flex: 2;
+		-webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
 		clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
 	}
 
 	.heading-section img {
 
+		-webkit-transform: translate(-57%, -20%);
+
 		transform: translate(-57%, -20%);
 	}
 
 	.offers {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
 		height: auto;
 	}
@@ -126,7 +141,11 @@
 	.offer-cards {
 		width: 80%;
 		height: 150px;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
 		flex-direction: row;
+		-ms-flex-pack: distribute;
 		justify-content: space-around;
 		height: 180px;
 		margin: 15px 0;
@@ -165,6 +184,9 @@
 	}
 
 	.contact-container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
 		height: auto;
 	}
@@ -184,6 +206,8 @@
 	}
 
 	.contact-left div {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
 		width: 100%;
 
@@ -191,6 +215,9 @@
 
 	.contact-info {
 		margin: 0;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 
@@ -202,11 +229,20 @@
 	}
 
 	.contact-right {
+		-webkit-clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
 		clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
 	}
 
 	.contact-right form {
 		margin: 20px 0;
+	}
+
+	form ::-webkit-input-placeholder {
+		font-size: 15px;
+	}
+
+	form :-ms-input-placeholder {
+		font-size: 15px;
 	}
 
 	form ::placeholder {
@@ -245,6 +281,7 @@
 	.heading-section img {
 		max-width: 350px;
 		left: 50%;
+		-webkit-transform: translate(-50%, 100px);
 		transform: translate(-50%, 100px);
 	}
 
@@ -259,6 +296,7 @@
 		height: 50px;
 		width: 50px;
 		border-radius: 50%;
+		-webkit-transform: scale(0.9);
 		transform: scale(0.9);
 	}
 
@@ -271,7 +309,9 @@
 		position: fixed;
 		background-color: var(--dark-gray);
 		border-radius: 10px;
+		-webkit-box-shadow: 1px 1px 15px -1px black;
 		box-shadow: 1px 1px 15px -1px black;
+		-webkit-transform: rotate(-90deg) translateX(-100vh);
 		transform: rotate(-90deg) translateX(-100vh);
 		margin-top: -30px;
 
@@ -293,6 +333,7 @@
 		margin: auto;
 		left: 50%;
 		top: 50%;
+		-webkit-transform: translate(-50%, -90%);
 		transform: translate(-50%, -90%);
 	}
 
@@ -309,8 +350,19 @@
 	.heading-text h2::after {
 		width: 80%;
 		margin: 30px auto;
+		-webkit-animation: slideinSmall 6s ease-out;
 		animation: slideinSmall 6s ease-out;
 
+	}
+
+	@-webkit-keyframes slideinSmall {
+		from {
+			width: 0;
+		}
+
+		to {
+			width: 80%;
+		}
 	}
 
 	@keyframes slideinSmall {
@@ -384,6 +436,7 @@
 
 	.offer-text,
 	.price {
+		-webkit-transform: scale(0.9);
 		transform: scale(0.9);
 	}
 
@@ -430,12 +483,20 @@
 	}
 
 	.contact-left div {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 
 	.contact-left div .contact-info {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
 		justify-content: flex-start;
 		width: 100%;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
 		flex-direction: row;
 	}
 
@@ -521,6 +582,7 @@
 	}
 
 	.heading-text {
+		-webkit-transform: translate(-50%, -80%) scale(0.8);
 		transform: translate(-50%, -80%) scale(0.8);
 	}
 
@@ -534,6 +596,7 @@
 	}
 
 	.offer-cards div {
+		-webkit-transform: scale(0.75);
 		transform: scale(0.75);
 	}
 
