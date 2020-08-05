@@ -89,6 +89,9 @@ var myLightbox = GLightbox({
 if ($(window).width() < 840) {
 	$('.offers div:nth-child(2)').toggleClass('animate__fadeInUp animate__fadeInRight');
 	$('.offers div:nth-child(3)').toggleClass('animate__fadeInRight animate__fadeInLeft');
+	$('.heading-text h1').addClass('animate__fadeInDown')
+	$('.heading-text h2').addClass('animate__fadeInUp')
+	$('.heading-text h3').addClass('animate__fadeInRight')
 }
 
 //scroll progress bar

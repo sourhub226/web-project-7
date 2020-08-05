@@ -226,6 +226,7 @@ a {
 	background-color: var(--dark-gray);
 	height: 100vh;
 	width: 100%;
+	overflow-y: hidden;
 }
 
 
@@ -661,6 +662,7 @@ a {
 	align-items: center;
 	background-color: white;
 	position: relative;
+	overflow-y: hidden;
 }
 
 .contact-container {

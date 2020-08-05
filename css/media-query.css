@@ -307,8 +307,8 @@
 		border-radius: 10px;
 		-webkit-box-shadow: 1px 1px 15px -1px black;
 		box-shadow: 1px 1px 15px -1px black;
-		margin-top: calc(99vh - 1.2*3vh);
-
+		-webkit-transform: rotate(-90deg) translateX(-95vh);
+		transform: rotate(-90deg) translateX(-95vh)
 	}
 
 	.menu-social a {
@@ -426,6 +426,7 @@
 
 	.offers-heading h2 {
 		font-size: 30px;
+		padding-top: 20px;
 	}
 
 	.offer-cards {
@@ -552,7 +553,9 @@
 	}
 
 	.offers-heading h2 {
-		font-size: 22px;
+		font-size: 25px;
+		padding-top: 10px;
+		padding-bottom: 15px;
 	}
 
 	.contact-container {
@@ -587,8 +590,8 @@
 	}
 
 	.menu-social {
-		margin-top: 105vh;
-		right: -25px;
+		-webkit-transform: rotate(-90deg) translateX(-105vh);
+		transform: rotate(-90deg) translateX(-105vh)
 	}
 
 	.heading-text {
