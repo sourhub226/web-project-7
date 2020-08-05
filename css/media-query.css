@@ -269,12 +269,6 @@
 	.heading-section img {
 		max-width: 600px;
 	}
-
-/*
-	.load hr {
-		left: 44%;
-	}
-*/
 }
 
 @media all and (max-width: 680px) {
@@ -526,12 +520,6 @@
 	.offers-section {
 		height: 100%;
 	}
-
-/*
-	.load hr {
-		left: 41%;
-	}
-*/
 }
 
 @media all and (max-width: 375px) {
@@ -610,14 +598,6 @@
 		-webkit-transform: scale(0.75);
 		transform: scale(0.75);
 	}
-
-	/*
-	.offer-cards{
-		transform: scale(0.7);
-		margin: -15px 0;
-		width: 110%;
-	}
-*/
 
 	.contact-section {
 		height: 100%;
