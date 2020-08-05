@@ -397,6 +397,8 @@
 	.about-content div {
 		margin: 20px;
 		margin-top: 0;
+		-webkit-transform: scale(0.9);
+		transform: scale(0.9);
 	}
 
 	.about-content div h2 {
@@ -415,6 +417,7 @@
 	.about-content img {
 		margin-right: 0;
 		width: 70%;
+		margin-top: 5px;
 	}
 
 	.offers-section {
@@ -520,6 +523,10 @@
 
 	.offers-section {
 		height: 100%;
+	}
+
+	.load hr {
+		left: 41%;
 	}
 }
 
