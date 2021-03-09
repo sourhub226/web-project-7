@@ -375,8 +375,8 @@ a {
     background-color: var(--white);
     width: 75%;
     height: 75%;
-    -webkit-box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
-    box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.33);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -520,8 +520,8 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
-    box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.33);
     cursor: pointer;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -582,8 +582,8 @@ a {
 .offer-cards:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    -webkit-box-shadow: 0px 0px 68px 0px rgb(247, 144, 65);
-    box-shadow: 0px 0px 68px 0px rgb(247, 144, 65);
+    -webkit-box-shadow: 0 0 68px 0 rgb(247, 144, 65);
+    box-shadow: 0 0 68px 0 rgb(247, 144, 65);
 }
 
 /*------------------------------
@@ -674,8 +674,8 @@ a {
     height: 80%;
     margin-left: 60px;
     background-color: var(--dark-gray);
-    -webkit-box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
-    box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.33);
 }
 
 .contact-left {
@@ -959,6 +959,6 @@ footer p {
     border: none;
     border-radius: 100px;
     background-color: var(--orange);
-    -webkit-box-shadow: 0px 0px 10px 0px var(--orange);
-    box-shadow: 0px 0px 10px 0px var(--orange);
+    -webkit-box-shadow: 0 0 10px 0 var(--orange);
+    box-shadow: 0 0 10px 0 var(--orange);
 }

@@ -312,7 +312,7 @@
 
     .menu-social a {
         margin: 10px;
-        font-size: 0px;
+        font-size: 0;
     }
 
     .menu-social a i {
