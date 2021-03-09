@@ -5,615 +5,612 @@
 
 
 @media all and (max-width: 1500px) {
-	.heading-section img {
-		max-width: 900px;
-	}
+    .heading-section img {
+        max-width: 900px;
+    }
 }
 
 @media all and (max-width: 1380px) {
-	.offer-cards {
-		width: 23%;
-	}
+    .offer-cards {
+        width: 23%;
+    }
 }
 
 @media all and (max-width: 1300px) {
-	.heading-text {
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-		top: -30px;
-		left: -30px;
-	}
+    .heading-text {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        top: -30px;
+        left: -30px;
+    }
 
-	.offer-cards h3 {
-		font-size: 30px;
-	}
+    .offer-cards h3 {
+        font-size: 30px;
+    }
 
-	.offer-text p {
-		line-height: 1;
-	}
+    .offer-text p {
+        line-height: 1;
+    }
 
-	.cars-gallery {
-		width: 90%;
+    .cars-gallery {
+        width: 90%;
 
-	}
+    }
 
 }
 
 @media all and (max-width: 1275px) {
-	.contact-container {
-		width: 80%;
-	}
+    .contact-container {
+        width: 80%;
+    }
 }
 
 
 @media all and (max-width: 1170px) {
-	.heading-text {
-		top: -45px;
-	}
+    .heading-text {
+        top: -45px;
+    }
 
-	.heading-section img {
-		max-width: 800px;
-	}
+    .heading-section img {
+        max-width: 800px;
+    }
 
-	.about-content div {
+    .about-content div {
 
-		margin: 0 0 0 45px;
-	}
+        margin: 0 0 0 45px;
+    }
 
-	.cars-gallery div img {
-		width: 100%;
-	}
+    .cars-gallery div img {
+        width: 100%;
+    }
 
 }
 
 @media all and (max-width: 1000px) {
-	.heading-text {
-		-webkit-transform: scale(0.8);
-		transform: scale(0.8);
-		top: -65px;
-		left: -55px
-	}
+    .heading-text {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        top: -65px;
+        left: -55px
+    }
 
-	.heading-section img {
-		max-width: 700px;
-	}
+    .heading-section img {
+        max-width: 700px;
+    }
 
-	.about-content {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
+    .about-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 
-	.about-content div {
-		margin-top: 0;
-		margin-bottom: 30px;
-	}
+    .about-content div {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
 
-	.offer-cards {
-		width: 30%;
-	}
+    .offer-cards {
+        width: 30%;
+    }
 
-	.cars-gallery div {
-		height: auto;
+    .cars-gallery div {
+        height: auto;
 
-	}
+    }
 
 }
 
 
 @media all and (max-width: 840px) {
-	.left-heading {
-		-webkit-box-flex: 2;
-		-ms-flex: 2;
-		flex: 2;
-	}
+    .left-heading {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+    }
 
-	.left-about {
-		-webkit-box-flex: 2;
-		-ms-flex: 2;
-		flex: 2;
-		-webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
-		clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
-	}
+    .left-about {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
+    }
 
-	.heading-section img {
+    .heading-section img {
 
-		-webkit-transform: translate(-57%, -20%);
+        -webkit-transform: translate(-57%, -20%);
 
-		transform: translate(-57%, -20%);
-	}
+        transform: translate(-57%, -20%);
+    }
 
-	.offers {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		height: auto;
-	}
+    .offers {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+    }
 
-	.offers-heading h2 {
-		font-size: 38px;
-		margin: 10px 0;
+    .offers-heading h2 {
+        font-size: 38px;
+        margin: 10px 0;
 
-	}
+    }
 
-	.offer-cards {
-		width: 80%;
-		height: 150px;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		flex-direction: row;
-		-ms-flex-pack: distribute;
-		justify-content: space-around;
-		height: 180px;
-		margin: 15px 0;
+    .offer-cards {
+        width: 80%;
+        height: 180px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 15px 0;
 
-	}
+    }
 
-	.offer-cards:nth-child(3) {
-		margin-bottom: 60px;
-	}
+    .offer-cards:nth-child(3) {
+        margin-bottom: 60px;
+    }
 
-	.offer-text {
-		width: 60%;
-	}
+    .offer-text {
+        width: 60%;
+    }
 
-	.offer-cards:nth-child(3) .offer-text {
-		width: 50%;
-	}
+    .offer-cards:nth-child(3) .offer-text {
+        width: 50%;
+    }
 
-	.offer-text p {
-		padding: 0;
-		line-height: 1.5;
-	}
+    .offer-text p {
+        padding: 0;
+        line-height: 1.5;
+    }
 
-	.offer-text h3 {
-		text-align: left;
-	}
+    .offer-text h3 {
+        text-align: left;
+    }
 
-	.portfolio-filter {
-		padding: 20px 0;
-	}
+    .portfolio-filter {
+        padding: 20px 0;
+    }
 
-	.cars-gallery div {
-		height: auto;
-		width: 50%;
-		margin: auto;
-	}
+    .cars-gallery div {
+        height: auto;
+        width: 50%;
+        margin: auto;
+    }
 
-	.contact-container {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		height: auto;
-	}
+    .contact-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+    }
 
-	.contact-left {
-		padding: 30px;
-	}
+    .contact-left {
+        padding: 30px;
+    }
 
-	.contact-left h2 {
-		font-size: 28px;
-	}
+    .contact-left h2 {
+        font-size: 28px;
+    }
 
-	.contact-left > p {
-		font-size: 15px;
-		margin-top: 5px;
-		margin-bottom: 20px;
-	}
+    .contact-left > p {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
 
-	.contact-left div {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		width: 100%;
+    .contact-left div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
 
-	}
+    }
 
-	.contact-info {
-		margin: 0;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
+    .contact-info {
+        margin: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 
-	.contact-info p {
-		width: 100%;
-		line-height: 22px;
-		font-size: 15px;
-		text-align: center;
-	}
+    .contact-info p {
+        width: 100%;
+        line-height: 22px;
+        font-size: 15px;
+        text-align: center;
+    }
 
-	.contact-right {
-		-webkit-clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
-		clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
-	}
+    .contact-right {
+        -webkit-clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
+        clip-path: polygon(48% 0, 50% 2%, 52% 0%, 100% 0%, 100% 100%, 0 100%, 0 0);
+    }
 
-	.contact-right form {
-		margin: 20px 0;
-	}
+    .contact-right form {
+        margin: 20px 0;
+    }
 
-	form ::-webkit-input-placeholder {
-		font-size: 15px;
-	}
+    form ::-webkit-input-placeholder {
+        font-size: 15px;
+    }
 
-	form :-ms-input-placeholder {
-		font-size: 15px;
-	}
+    form :-ms-input-placeholder {
+        font-size: 15px;
+    }
 
-	form ::placeholder {
-		font-size: 15px;
-	}
+    form ::placeholder {
+        font-size: 15px;
+    }
 
-	form input,
-	textarea,
-	button {
-		padding: 10px;
-		margin: 10px 0;
-	}
+    form input,
+    textarea,
+    button {
+        padding: 10px;
+        margin: 10px 0;
+    }
 
-	form textarea {
-		height: 150px;
-	}
+    form textarea {
+        height: 150px;
+    }
 
-	form button {
-		width: 150px;
-	}
+    form button {
+        width: 150px;
+    }
 }
 
 @media all and (max-width: 780px) {
-	.heading-section img {
-		max-width: 600px;
-	}
+    .heading-section img {
+        max-width: 600px;
+    }
 }
 
 @media all and (max-width: 680px) {
 
-	/*mobile*/
-	.heading-section img {
-		max-width: 350px;
-		left: 50%;
-		-webkit-transform: translate(-50%, 100px);
-		transform: translate(-50%, 100px);
-	}
+    /*mobile*/
+    .heading-section img {
+        max-width: 350px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 100px);
+        transform: translate(-50%, 100px);
+    }
 
-	.main-nav {
-		width: 100%;
-	}
+    .main-nav {
+        width: 100%;
+    }
 
-	.start-menu {
-		position: fixed;
-		top: 10px;
-		left: 10px;
-		height: 50px;
-		width: 50px;
-		border-radius: 50%;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
+    .start-menu {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 
-	.menu-closed {
-		position: relative;
-		top: 1px;
-	}
+    .menu-closed {
+        position: relative;
+        top: 1px;
+    }
 
-	.menu-social {
-		position: fixed;
-		background-color: var(--dark-gray);
-		border-radius: 10px;
-		-webkit-box-shadow: 1px 1px 15px -1px black;
-		box-shadow: 1px 1px 15px -1px black;
-		-webkit-transform: rotate(-90deg) translateX(-95vh);
-		transform: rotate(-90deg) translateX(-95vh)
-	}
+    .menu-social {
+        position: fixed;
+        background-color: var(--dark-gray);
+        border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 15px -1px black;
+        box-shadow: 1px 1px 15px -1px black;
+        -webkit-transform: rotate(-90deg) translateX(-95vh);
+        transform: rotate(-90deg) translateX(-95vh)
+    }
 
-	.menu-social a {
-		margin: 10px;
-		font-size: 0px;
-	}
+    .menu-social a {
+        margin: 10px;
+        font-size: 0px;
+    }
 
-	.menu-social a i {
-		margin: 5px 0;
-		font-size: 15px;
-	}
+    .menu-social a i {
+        margin: 5px 0;
+        font-size: 15px;
+    }
 
-	.heading-text {
-		text-align: center;
-		width: 80%;
-		margin: auto;
-		left: 50%;
-		top: 50%;
-		-webkit-transform: translate(-50%, -90%);
-		transform: translate(-50%, -90%);
-	}
+    .heading-text {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -90%);
+        transform: translate(-50%, -90%);
+    }
 
-	.heading-section h1 {
-		font-size: 45px;
-	}
+    .heading-section h1 {
+        font-size: 45px;
+    }
 
-	.heading-section h2 {
-		font-size: 14px;
-		letter-spacing: 1px;
-		margin-top: 15px;
-	}
+    .heading-section h2 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
 
-	.heading-text h2::after {
-		width: 80%;
-		margin: 30px auto;
-		-webkit-animation: slideinSmall 6s ease-out;
-		animation: slideinSmall 6s ease-out;
+    .heading-text h2::after {
+        width: 80%;
+        margin: 30px auto;
+        -webkit-animation: slideinSmall 6s ease-out;
+        animation: slideinSmall 6s ease-out;
 
-	}
+    }
 
-	@-webkit-keyframes slideinSmall {
-		from {
-			width: 0;
-		}
+    @-webkit-keyframes slideinSmall {
+        from {
+            width: 0;
+        }
 
-		to {
-			width: 80%;
-		}
-	}
+        to {
+            width: 80%;
+        }
+    }
 
-	@keyframes slideinSmall {
-		from {
-			width: 0;
-		}
+    @keyframes slideinSmall {
+        from {
+            width: 0;
+        }
 
-		to {
-			width: 80%;
-		}
-	}
+        to {
+            width: 80%;
+        }
+    }
 
-	.heading-text a {
-		margin: auto;
-		margin-top: 40px;
-		width: 60%;
-	}
+    .heading-text a {
+        margin: auto;
+        margin-top: 40px;
+        width: 60%;
+    }
 
-	.right-heading {
-		display: none;
-	}
+    .right-heading {
+        display: none;
+    }
 
-	.left-about {
-		display: none;
-	}
+    .left-about {
+        display: none;
+    }
 
-	.about-content {
-		margin-left: 0;
-		width: 85%;
-		height: 85%;
-	}
+    .about-content {
+        margin-left: 0;
+        width: 85%;
+        height: 85%;
+    }
 
-	.about-content div {
-		margin: 20px;
-		margin-top: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
+    .about-content div {
+        margin: 20px;
+        margin-top: 0;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 
-	.about-content div h2 {
-		font-size: 35px;
-	}
+    .about-content div h2 {
+        font-size: 35px;
+    }
 
-	.about-content div h3 {
-		font-size: 40px;
-	}
+    .about-content div h3 {
+        font-size: 40px;
+    }
 
-	.about-content div p {
-		width: 100%;
-		margin-top: 30px;
-	}
+    .about-content div p {
+        width: 100%;
+        margin-top: 30px;
+    }
 
-	.about-content img {
-		margin-right: 0;
-		width: 70%;
-		margin: 10px 0;
-	}
+    .about-content img {
+        width: 70%;
+        margin: 10px 0;
+    }
 
-	.offers-section {
-		padding-left: 0;
-		height: 100%;
-	}
+    .offers-section {
+        padding-left: 0;
+        height: 100%;
+    }
 
-	.offers-heading {
-		width: 100%;
-	}
+    .offers-heading {
+        width: 100%;
+    }
 
-	.offers-heading h2 {
-		font-size: 30px;
-		padding-top: 20px;
-	}
+    .offers-heading h2 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
 
-	.offer-cards {
-		width: 85%;
-		padding: 0 10px;
-	}
+    .offer-cards {
+        width: 85%;
+        padding: 0 10px;
+    }
 
-	.offer-text,
-	.price {
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
+    .offer-text,
+    .price {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
 
-	.offer-text {
-		width: 100%;
-	}
+    .offer-text {
+        width: 100%;
+    }
 
-	.offer-cards:nth-child(3) .offer-text {
-		width: 100%;
-	}
+    .offer-cards:nth-child(3) .offer-text {
+        width: 100%;
+    }
 
-	.price {
-		margin: auto;
-	}
+    .price {
+        margin: auto;
+    }
 
-	.gallery-section {
-		padding-left: 0;
-		height: 100%;
-		padding-bottom: 20px;
-	}
+    .gallery-section {
+        padding-left: 0;
+        height: 100%;
+        padding-bottom: 20px;
+    }
 
-	.portfolio-filter {
-		padding: 15px;
-		padding-top: 80px;
-		line-height: 1.5;
-	}
+    .portfolio-filter {
+        padding: 15px;
+        padding-top: 80px;
+        line-height: 1.5;
+    }
 
-	.portfolio-filter .button {
-		font-size: 18px;
-		padding: 0 10px;
-	}
+    .portfolio-filter .button {
+        font-size: 18px;
+        padding: 0 10px;
+    }
 
-	.cars-gallery div {
-		width: 100%;
-	}
+    .cars-gallery div {
+        width: 100%;
+    }
 
-	.contact-section {
-		height: 100%;
-	}
+    .contact-section {
+        height: 100%;
+    }
 
-	.contact-container {
-		margin-left: 0;
-		width: 85%;
-		margin: 30px 0;
-	}
+    .contact-container {
+        width: 85%;
+        margin: 30px 0;
+    }
 
-	.contact-left > p {
-		margin-top: 10px;
-	}
+    .contact-left > p {
+        margin-top: 10px;
+    }
 
-	.contact-left div {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
+    .contact-left div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 
-	.contact-left div .contact-info {
-		-webkit-box-pack: start;
-		-ms-flex-pack: start;
-		justify-content: flex-start;
-		width: 100%;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		flex-direction: row;
-	}
+    .contact-left div .contact-info {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        width: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
 
-	.contact-info p {
-		text-align: left;
-		padding-left: 30px;
-		font-size: 14px;
-	}
+    .contact-info p {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 14px;
+    }
 
-	footer {
-		padding-left: 0;
-	}
+    footer {
+        padding-left: 0;
+    }
 
 }
 
 
 @media all and (max-width: 415px) {
-	.contact-container {
-		width: 85%;
-	}
+    .contact-container {
+        width: 85%;
+    }
 
-	.offers-section {
-		height: 100%;
-	}
+    .offers-section {
+        height: 100%;
+    }
 }
 
 @media all and (max-width: 375px) {
-	.about-content {
-		height: 95%;
-	}
+    .about-content {
+        height: 95%;
+    }
 
-	.about-content div p {
-		margin-bottom: 0;
-		line-height: 1.4;
-		font-size: 16px;
-	}
+    .about-content div p {
+        margin-bottom: 0;
+        line-height: 1.4;
+        font-size: 16px;
+    }
 
-	.about-content div h2 {
-		font-size: 30px;
-	}
+    .about-content div h2 {
+        font-size: 30px;
+    }
 
-	.about-content div h3 {
-		font-size: 32px;
-	}
+    .about-content div h3 {
+        font-size: 32px;
+    }
 
 
-	.offers-heading {
-		margin-top: 30px;
-	}
+    .offers-heading {
+        margin-top: 30px;
+    }
 
-	.offers-heading h2 {
-		font-size: 25px;
-		padding-top: 10px;
-		padding-bottom: 15px;
-	}
+    .offers-heading h2 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 
-	.contact-container {
-		width: 90%;
-	}
+    .contact-container {
+        width: 90%;
+    }
 
-	.contact-left {
-		padding: 20px;
-	}
+    .contact-left {
+        padding: 20px;
+    }
 
-	.contact-left > p {
-		font-size: 14px;
-	}
+    .contact-left > p {
+        font-size: 14px;
+    }
 
-	form input,
-	textarea,
-	button {
-		margin: 5px 0;
-		width: 90%;
-	}
+    form input,
+    textarea,
+    button {
+        margin: 5px 0;
+        width: 90%;
+    }
 
-	footer p {
-		padding: 8px;
-		font-size: 15px;
-	}
+    footer p {
+        padding: 8px;
+        font-size: 15px;
+    }
 }
 
 @media all and (max-width: 361px) {
-	.start-menu {
-		-webkit-transform: scale(0.8);
-		transform: scale(0.8);
-	}
+    .start-menu {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
 
-	.menu-social {
-		-webkit-transform: rotate(-90deg) translateX(-105vh);
-		transform: rotate(-90deg) translateX(-105vh)
-	}
+    .menu-social {
+        -webkit-transform: rotate(-90deg) translateX(-105vh);
+        transform: rotate(-90deg) translateX(-105vh)
+    }
 
-	.heading-text {
-		-webkit-transform: translate(-50%, -80%) scale(0.8);
-		transform: translate(-50%, -80%) scale(0.8);
-	}
+    .heading-text {
+        -webkit-transform: translate(-50%, -80%) scale(0.8);
+        transform: translate(-50%, -80%) scale(0.8);
+    }
 
-	.heading-section img {
-		max-width: 300px;
-	}
+    .heading-section img {
+        max-width: 300px;
+    }
 
-	.offer-cards {
-		padding: 0;
-		margin: 0;
-	}
+    .offer-cards {
+        padding: 0;
+        margin: 0;
+    }
 
-	.offer-cards div {
-		-webkit-transform: scale(0.75);
-		transform: scale(0.75);
-	}
+    .offer-cards div {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
 
-	.contact-section {
-		height: 100%;
-	}
+    .contact-section {
+        height: 100%;
+    }
 }
