@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 //Preloader
 $(window).on("load", function () {
 	console.log("window load");
@@ -82,7 +84,7 @@ var myLightbox = GLightbox({
 	selector: '.gallery-image',
 	zoomable: true,
 	touchNavigation: true,
-	touchFollowAxis: true
+	touchFollowAxis: true,
 });
 
 //media query
